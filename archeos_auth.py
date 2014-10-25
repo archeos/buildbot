@@ -1,4 +1,4 @@
-from secret import webauth
+from archeos_secret import webauth
 from buildbot.status import html
 from buildbot.status.web import authz, auth
 
