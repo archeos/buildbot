@@ -1,7 +1,8 @@
 # These repos are checked in archeos_sources.py for modifications on ALL branches
 all_branch_repos = {'archeos-manual': 'git://github.com/archeos/archeos-manual.git',
          'archeos-meta': 'git://github.com/archeos/archeos-meta.git',
-         'archeos-desktop': 'git://github.com/archeos/archeos-desktop.git'
+         'archeos-desktop': 'git://github.com/archeos/archeos-desktop.git',
+         'test-repos': 'git://github.com/fabfurnari/test-repos.git',
          }
 
 # These repos are checked in archeos_sources.py for modification only on branch master
