@@ -1,5 +1,5 @@
 # These repos are checked in archeos_sources.py for modifications on ALL branches
-repos = {'archeos-manuals': 'git://github.com/archeos/archeos-manuals.git',
+repos = {'archeos-manual': 'git://github.com/archeos/archeos-manual.git',
          'archeos-meta': 'git://github.com/archeos/archeos-meta.git',
          'archeos-desktop': 'git://github.com/archeos/archeos-desktop.git'
          }
