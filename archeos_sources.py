@@ -9,11 +9,11 @@ for name, url in all_branch_repos.iteritems():
         url,
         workdir='/home/builder/buildbot/gitpoller/' + name + '/',
         branches=True,
-        pollinterval=300))
+        pollinterval=60))
 
 for name, url in master_repos.iteritems():
     sources.append(GitPoller(
         url,
         workdir='/home/builder/buildbot/gitpoller/' + name + '/',
         branches=['master'],
-        pollinterval=300))
+        pollinterval=60))
