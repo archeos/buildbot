@@ -7,6 +7,7 @@ sources = []
 for name, url in all_branch_repos.iteritems():
     sources.append(GitPoller(
         url,
+        project=name,
         workdir='/home/builder/buildbot/gitpoller/' + name + '/',
         branches=True,
         pollinterval=60))
@@ -14,6 +15,7 @@ for name, url in all_branch_repos.iteritems():
 for name, url in master_repos.iteritems():
     sources.append(GitPoller(
         url,
+        project=name,
         workdir='/home/builder/buildbot/gitpoller/' + name + '/',
         branches=['master'],
         pollinterval=60))
