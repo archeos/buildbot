@@ -1,10 +1,10 @@
-from archeos_repos import all_branches_repos, master_repos
+from archeos_repos import all_branch_repos, master_repos
 from buildbot.changes.gitpoller import GitPoller
 
 sources = []
 
 # To add sources with other settings add other loops
-for name, url in all_branches_repos.iteritems():
+for name, url in all_branch_repos.iteritems():
     sources.append(GitPoller(
         url,
         workdir='/home/builder/buildbot/gitpoller/' + name + '/',
