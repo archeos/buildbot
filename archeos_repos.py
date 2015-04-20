@@ -1,8 +1,8 @@
 # These repos are checked in archeos_sources.py for modifications on ALL branches
 all_branch_repos = {'archeos-manual': 'git://github.com/archeos/archeos-manual.git',
          'archeos-meta': 'git://github.com/archeos/archeos-meta.git',
-         'archeos-desktop': 'git://github.com/archeos/archeos-desktop.git',
-         'test-repos': 'git://github.com/fabfurnari/test-repos.git',
+         'archeos-desktop-base': 'git://github.com/archeos/archeos-desktop-base.git',
+#        'test-repos': 'git://github.com/fabfurnari/test-repos.git',
          'archeos-keyring': 'git://github.com/archeos/archeos-keyring.git',
          'archeos-menu' : 'git://github.com/archeos/archeos-menu.git',
          'totalopenstation' : 'git://github.com/archeos/totalopenstation.git',
