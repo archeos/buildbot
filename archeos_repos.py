@@ -5,7 +5,8 @@ all_branch_repos = {'archeos-manual': 'git://github.com/archeos/archeos-manual.g
          'test-repos': 'git://github.com/fabfurnari/test-repos.git',
          'archeos-keyring': 'git://github.com/archeos/archeos-keyring.git',
          'archeos-menu' : 'git://github.com/archeos/archeos-menu.git',
-         'totalopenstation' : 'git://github.com/archeos/totalopenstation.git'
+         'totalopenstation' : 'git://github.com/archeos/totalopenstation.git',
+         'archeos-apt-setup': 'git@github.com:archeos/archeos-apt-setup.git'
          }
 
 # These repos are checked in archeos_sources.py for modification only on branch master
